@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/*                                                      Header Section                 */
+
+.header-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 120px 45px;
+}
+
+.header-icon {
+  Width: 283px;
+  Height: 61.86px;
+}
+
+.head-link:not(:last-child) {
+  padding-right: 40px;
+}
+
+.home-link {
+  color: #4B7FFB !important;
+}
+
+.head-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #525756;
+}
+
+.signin {
+  text-decoration: none;
+  color: #4B7FFB;
+}
+
+.head-btn {
+  padding: 10px;
+  color: #4B7FFB;
+  border: 1px solid #4B7FFB;
+  border-radius: 15px;
+  margin-left: 25px;
+}
+
+
+/*                                                      booking Section                 */
+.booking-sec {
+  background-image: url(./images/bg-color.png);
+  height: 921px;
+  position: relative;
+  padding-left: 120px;
+}
+
+.booking-headings {
+  padding-top: 147px;
+}
+
+.primary-heading {
+  width: 700px;
+  font-weight: 375;
+  font-size: 40px;
+  line-height: 55px;
+  color: #201E62;
+}
+
+.doctor-img {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 720px;
+  height: 765px;
+}

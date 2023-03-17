@@ -204,7 +204,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
+  margin: 150px 0 130px 0;
 }
 
 .explore-heading {
@@ -216,6 +216,7 @@ body {
 
 .explore-details {
   width: 650px;
+  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
@@ -298,13 +299,12 @@ body {
   color: #FFFFFF;
   border: none;
   padding: 15px 68px;
-  margin-bottom: 130px;
 }
 
 
 /* ************************************************************************* why chose us Section */
 
-.why-us-div {
+.why-us-sec {
   display: flex;
   margin: 0 30px 0 50px;
 }
@@ -355,3 +355,108 @@ body {
   margin-top: 40px;
   padding: 17px 32px !important;
 }
+
+/* ************************************************************************* Doctors Detail Section */
+
+.doctors-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 170px 0 85px 0;
+  position: relative;
+}
+
+.aeros-circle-div {
+  position: absolute;
+  top: 10px;
+  right: 120px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.aero-circle {
+  width: 35px;
+}
+
+.book-doc-div {
+  margin: 50px 0 88px 0;
+  display: flex;
+}
+
+.book-doc-comtainer {
+  padding: 24px 27px 50px;
+  background-color: rgba(75, 127, 251, 0.2);
+  border-radius: 20px;
+}
+
+.book-doc-comtainer:not(:last-child) {
+  margin-right: 19px;
+}
+
+.doc-details {
+  margin: 21px 0 0 15px;
+}
+
+.name-rating-div {
+  display: flex;
+  align-items: center;
+}
+
+.doc-loation-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(17, 17, 19, 0.4);
+  margin: 17px 0 32px 0;
+}
+
+.doc-city {
+  margin-left: 8px;
+}
+
+.doc-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #111113;
+}
+
+.star {
+  color: #E08923;
+  font-size: 30px;
+  margin: 0 4px 0 8px;
+}
+
+.doc-rating {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #21212E;
+}
+
+.doc-post {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(17, 17, 19, 0.8);
+}
+
+.book-doc-btn {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 142.5%;
+  background-color: #4B7FFB;
+  box-shadow: 5px 5px 20px rgba(75, 127, 251, 0.3);
+  border-radius: 30px;
+  border: none;
+  padding: 10px 95px;
+}
+
+/* ************************************************************************* Customer opinion Section */

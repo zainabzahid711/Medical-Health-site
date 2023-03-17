@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -654,3 +655,130 @@ p {
 }
 
 /* *********************************************************   footer */
+
+.footer-sec1 {
+  background-color: #201E62;
+  text-align: center;
+  padding: 65px 120px 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/svg/footer-circle-top.svg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.footer-bottom-circle {
+  position: absolute;
+  right: -50px;
+  bottom: -100px;
+}
+
+.footer-heading {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+
+.footer-btn-div {
+  display: flex;
+  margin-top: 60px;
+}
+
+.footer-btn1 {
+  background-color: #4DA9FF;
+  box-shadow: 5px 5px 20px rgba(77, 169, 255, 0.3);
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  border: none;
+  margin-right: 40px;
+  padding: 15px 24px 15px 34px;
+}
+
+.footer-btn2 {
+  background-color: transparent;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  border: 1px solid #FFFFFF;
+  padding: 15px 14px 15px 34px;
+}
+
+.footer-sec2 {
+  display: flex;
+  padding: 70px 135px;
+  border-bottom: 1px solid #DEE3E6;
+}
+
+.footer-logos,
+.footer-links-container {
+  margin-top: 0;
+}
+
+.footer-main-logo {
+  width: 230px;
+}
+
+.under-logo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #6C6973;
+  padding: 20px 0;
+}
+
+.social-logos {
+  display: flex;
+}
+
+.fb {
+  margin-right: 20px;
+}
+
+.footer-links-container {
+  display: flex;
+}
+
+.menu-list {
+  margin: 0 120px 0 150px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.aa {
+  margin-top: 0;
+}
+
+.list-head {
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #6C6973;
+  margin-top: 16px;
+}
+
+.copyrights-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 135px 50px;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ADBAC0;
+}

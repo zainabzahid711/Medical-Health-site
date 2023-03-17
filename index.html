@@ -276,7 +276,7 @@
       <div class="dot"></div>
     </div>
   </div>
-  <!-- **************************************************************  Article Section -->
+  <!-- *************************************************************************  Article Section -->
   <div class="artical-section">
     <div class="customer-heading-div">
       <h1 class="customer-heading article-main-heading">Browse our latest articles on healthcare & wellness.</h1>
@@ -328,10 +328,65 @@
     </div>
     <button class="seeAll-jobs-btn view-all-adjustment">VIEW ALL</button>
   </div>
-
-
-
-
+  <!-- ***************************************************************************** FAQ's Section -->
+  <div class="faq-sec">
+    <div class="faq-left-div">
+      <h1 class="faq-left-heading">Have any question? <br> find here</h1>
+      <button class="faq-btn">CONTACT US TODAY <span class="faq-btn-aero">&rarr;</span> </button>
+    </div>
+    <div class="faq-right-div">
+      <div class="collapsible collapsible1">
+        <div class="collapsible-header">
+          <h2 class="faq-qs-heading">What all payment options you have?</h2>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="collapsible-content">
+          <p>5 minutes to get started and 60-90 minutes of game play (depending on how many players in the game.
+            Recommended for up to 6 players at a time.)</p>
+        </div>
+      </div>
+      <div class="collapsible">
+        <div class="collapsible-header">
+          <h2 class="faq-qs-heading">How many days it will take to get CV/Resume?</h2>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="collapsible-content">
+          <p>5 minutes to get started and 60-90 minutes of game play (depending on how many players in the game.
+            Recommended for up to 6 players at a time.)</p>
+        </div>
+      </div>
+      <div class="collapsible">
+        <div class="collapsible-header">
+          <h2 class="faq-qs-heading">What is Unlimited modifications?</h2>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="collapsible-content">
+          <p>5 minutes to get started and 60-90 minutes of game play (depending on how many players in the game.
+            Recommended for up to 6 players at a time.)</p>
+        </div>
+      </div>
+      <div class="collapsible">
+        <div class="collapsible-header">
+          <h2 class="faq-qs-heading">What are the Pricing?</h2>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="collapsible-content">
+          <p>5 minutes to get started and 60-90 minutes of game play (depending on how many players in the game.
+            Recommended for up to 6 players at a time.)</p>
+        </div>
+      </div>
+      <div class="collapsible last-qs">
+        <div class="collapsible-header">
+          <h2 class="faq-qs-heading">How payment is safe?</h2>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="collapsible-content">
+          <p>5 minutes to get started and 60-90 minutes of game play (depending on how many players in the game.
+            Recommended for up to 6 players at a time.)</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- *****************************************************************************  Footer -->
   <footer class="homepage-footer">
     <div class="footer-sec1">
@@ -378,6 +433,29 @@
       <span class="copyright">Privacy Policy | Terms of Use</span>
     </div>
   </footer>
+
+
+
 </body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
+    collapsibleHeaders.forEach(function (collapsibleHeader) {
+      collapsibleHeader.addEventListener("click", function () {
+        const collapsibleContent = this.nextElementSibling;
+        collapsibleContent.style.display = collapsibleContent.style.display === 'none' ? 'block' : 'none';
+        const toggleIcon = this.querySelector('.toggle-icon');
+        toggleIcon.textContent = collapsibleContent.style.display === 'none' ? '+' : '-';
+        if (toggleIcon.textContent === '+') {
+          this.style.color = 'black'; // set the heading color back to black
+          toggleIcon.style.color = 'black'; // set the toggle icon color to black
+        } else {
+          this.style.color = 'blue'; // set the heading color to blue
+          toggleIcon.style.color = 'black'; // set the toggle icon color back to black
+        }
+      });
+    });
+  });
+</script>
 
 </html>

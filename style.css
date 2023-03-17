@@ -5,6 +5,7 @@ body {
 }
 
 h1,
+h2,
 p {
   margin: 0;
 }
@@ -652,6 +653,85 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* *********************************************************   FAQ's Section */
+.faq-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0px 110px 135px;
+}
+
+.faq-left-heading {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 130%;
+  color: #34303D;
+  margin-bottom: 40px;
+}
+
+.faq-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 17px 30px;
+  border: none;
+  background: #4B7FFB;
+  box-shadow: 5px 5px 20px rgba(77, 169, 255, 0.3);
+  border-radius: 30px;
+}
+
+.faq-btn-aero {
+  font-size: 30px;
+}
+
+.faq-right-div {
+  width: 600px;
+  margin-right: 80px;
+}
+
+.collapsible-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible {
+  padding: 30px;
+  border-bottom: 1px solid #F7F4FD;
+}
+
+.collapsible1 {
+  padding-top: 0;
+}
+
+.toggle-icon {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.collapsible-content {
+  display: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding-top: 20px;
+  color: #6C6973;
+}
+
+.faq-qs-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
+  color: #34303D;
+}
+
+.last-qs {
+  border: none;
 }
 
 /* *********************************************************   footer */

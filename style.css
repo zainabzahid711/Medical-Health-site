@@ -303,3 +303,55 @@ body {
 
 
 /* ************************************************************************* why chose us Section */
+
+.why-us-div {
+  display: flex;
+  margin: 0 30px 0 50px;
+}
+
+.why-us-content-div {
+  margin: 40px 0 0 25px;
+}
+
+.why-us-frame {
+  height: 700px;
+  width: 600px;
+}
+
+.align-detils {
+  text-align: left;
+  margin-bottom: 50px
+}
+
+.why-us-detail-div {
+  display: flex;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.block-icon {
+  width: 80px;
+  padding-right: 24px;
+}
+
+.why-us-heading {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
+  color: #34303D;
+}
+
+.why-us-para {
+  margin: 0;
+  width: 450px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #6C6973;
+}
+
+.set-btn-padding {
+  margin-top: 40px;
+  padding: 17px 32px !important;
+}

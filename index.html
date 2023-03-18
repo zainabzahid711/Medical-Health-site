@@ -17,17 +17,16 @@
 <body>
   <!-- ***********************************************************************   Header  -->
   <header class="header-sec">
-    <!-- <div> -->
-    <img class="header-icon" src="./images/main-logo.svg" alt="EnvoyHealth-logo">
-    <!-- </div> -->
+    <div class="logo-container">
+      <img class="header-icon" src="./images/main-logo.svg" alt="EnvoyHealth-logo">
+      <img class="menu-icon__bar  menu-icon" src="./images/svg/mobile-navbar.svg" alt=""></span>
+    </div>
     <div class="head-links-div">
       <a class="head-link home-link" href="#abc">Home</a>
       <a class="head-link" href="#abc">About us</a>
       <a class="head-link" href="#abc">Pages</a>
       <a class="head-link" href="#abc">Doctors</a>
       <a class="head-link" href="#abc">Contacts</a>
-    </div>
-    <div>
       <a class="signin" href="#abc">Sign in</a>
       <button class="head-btn">GET STARTED</button>
     </div>
@@ -438,6 +437,7 @@
 
 </body>
 <script>
+  // *******************************************   FAQ collapse 
   document.addEventListener("DOMContentLoaded", function () {
     const collapsibleHeaders = document.querySelectorAll('.collapsible-header');
     collapsibleHeaders.forEach(function (collapsibleHeader) {
@@ -454,6 +454,24 @@
           toggleIcon.style.color = 'black'; // set the toggle icon color back to black
         }
       });
+    });
+  });
+  //  ******************************************* responsive menu icon
+  document.addEventListener("DOMContentLoaded", function () {
+    var menuIcon = document.querySelector('.menu-icon');
+    var headLinksDiv = document.querySelector('.head-links-div');
+    var headBtn = document.querySelector('.head-btn');
+
+    menuIcon.addEventListener('click', function () {
+      headLinksDiv.classList.toggle('show-menu');
+      headBtn.classList.toggle('hide-btn');
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 500) {
+        headLinksDiv.classList.remove('show-menu');
+        headBtn.classList.remove('hide-btn');
+      }
     });
   });
 </script>

@@ -21,7 +21,6 @@ p {
 
 .header-icon {
   Width: 283px;
-  Height: 61.86px;
 }
 
 .head-link:not(:last-child) {
@@ -50,6 +49,61 @@ p {
   border: 1px solid #4B7FFB;
   border-radius: 15px;
   margin-left: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-sec {
+    flex-wrap: wrap;
+    padding: 8px 25px 15px;
+  }
+
+  .header-icon {
+    Width: 100px;
+  }
+
+  .logo-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-icon {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .head-links-div {
+    display: none;
+    width: 100%;
+  }
+
+  .head-link:not(:last-child) {
+    padding-right: 0;
+  }
+
+  .head-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .show-menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .show-menu .head-link:not(:last-child) {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  .menu-icon {
+    display: none;
+  }
 }
 
 
@@ -142,6 +196,7 @@ p {
   font-weight: 500;
   font-size: 32px;
   color: #FFFFFF;
+  padding: 10px;
 }
 
 .find-child-div {

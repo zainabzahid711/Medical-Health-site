@@ -181,6 +181,10 @@ p {
   text-align: center;
 }
 
+.find-div-mbl {
+  display: none;
+}
+
 .find-div {
   position: absolute;
   bottom: -50px;
@@ -192,11 +196,12 @@ p {
   padding: 0 55px;
 }
 
+
 .find-heading {
   font-weight: 500;
   font-size: 32px;
   color: #FFFFFF;
-  padding: 10px;
+  margin: 10px;
 }
 
 .find-child-div {
@@ -243,7 +248,7 @@ p {
 .location-div {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  padding: 30px;
   border-left: 1px solid #1E1C61;
 
 }
@@ -259,6 +264,119 @@ p {
   padding: 0px 48px;
   font-weight: 600;
   font-size: 32px;
+}
+
+
+@media (max-width: 500px) {
+
+  .booking-sec {
+    background-image: none;
+    /* background-size: cover; */
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+
+  .doctor-res-container {
+    background-image: url(/images/pictures/booking-bg-mobile.png);
+    position: relative;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .doctor-img {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    height: 300px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .find-div {
+    display: none;
+  }
+
+  /* .find-div-mobile {
+    width: 335px;
+    height: 75px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: #201E62;
+    padding: 0 55px;
+  }
+
+  .search-input-mbl::placeholder {
+    color: #263238;
+    font-size: 100px;
+  }
+
+  .explore-btn {
+
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 14px;
+  } */
+
+
+  .booking-heading-div {
+    padding: 34px 14px 0 26px;
+  }
+
+  .german-heading {
+    width: 325px;
+    font-weight: 375;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .booking-heading {
+    font-weight: 600;
+    font-size: 24px;
+    width: 300px;
+    line-height: 33px;
+    color: #201E62;
+    margin: 0;
+  }
+
+  .booking-detail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1C1B1F;
+    width: 325px;
+    margin: 20px 0 65px 0;
+  }
+
+  .booking-btn-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: -26px;
+    align-items: center;
+    background-color: red;
+  }
+
+  .download-btn {
+    padding: 15px 24px 15px 37px;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    width: 230px;
+  }
+
+  .booking-btn {
+    width: 230px;
+    font-size: 16px;
+    color: #201E62;
+    border: 2px solid #201E62;
+  }
 }
 
 /*  ********************************************** Explore Treatment Section */
@@ -363,6 +481,61 @@ p {
   padding: 15px 68px;
 }
 
+@media (max-width: 500px) {
+
+  .explore-sec {
+    margin: 100px 0 55px 0;
+  }
+
+  .explore-heading {
+    width: 240px;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .explore-details {
+    width: 330px;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .job-card-div {
+    margin: 30px 0 15px 0;
+  }
+
+  .job-card-div2 {
+    margin-bottom: 40px;
+  }
+
+  .job-card {
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .job-card:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .job-icon {
+    width: 46px;
+  }
+
+  .job-name {
+    margin: 2px 0 10px 0;
+    font-size: 14px;
+  }
+
+  .job-details {
+    display: none;
+  }
+
+  .try-now {
+    font-size: 4;
+    padding-right: 4px;
+  }
+}
 
 /* ************************************************************************* why chose us Section */
 
@@ -416,6 +589,68 @@ p {
 .set-btn-padding {
   margin-top: 40px;
   padding: 17px 32px !important;
+  border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+
+  .why-us-sec {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1B1F;
+  }
+
+  .chose-us-head {
+    margin-left: -20px;
+  }
+
+  .why-us-frame {
+    display: none;
+  }
+
+  .why-us-content-div {
+    background-color: #F7F4FD;
+    padding: 40px 20px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .align-detils {
+    margin-bottom: 30px;
+  }
+
+  .why-us-detail-div {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width: 335px;
+    background-color: #fff;
+  }
+
+  .block-icon {
+    padding-right: 10px;
+  }
+
+  .why-us-heading {
+    font-size: 18px;
+    line-height: 130%;
+    width: 220px;
+    padding-top: 10px;
+  }
+
+  .why-us-para {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 140%;
+    width: 220px;
+  }
+
+  .set-btn-padding {
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ************************************************************************* Doctors Detail Section */
@@ -485,7 +720,6 @@ p {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-
   color: #111113;
 }
 
@@ -519,6 +753,46 @@ p {
   border-radius: 30px;
   border: none;
   padding: 10px 95px;
+}
+
+@media (max-width: 500px) {
+
+  .doctors-sec {
+    align-items: center;
+    margin: 50px 0;
+    position: relative;
+  }
+
+  .doc-head {
+    width: 330px;
+  }
+
+  .aeros-circle-div {
+    display: none;
+  }
+
+  .book-doc-div {
+    margin: 30px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doc-loation-div {
+    margin: 13px 0 18px 0;
+  }
+
+  .doc-details {
+    margin: 10px 0 0 15px;
+  }
+
+  .book-doc-comtainer:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .book-doc-comtainer {
+    padding: 20px 18px;
+  }
 }
 
 /* ************************************************************************* Customer opinion Section */

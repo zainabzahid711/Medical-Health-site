@@ -109,7 +109,7 @@ p {
 
 /*                                                      booking Section                 */
 .booking-sec {
-  background-image: url(./images/bg-color.png);
+  background-image: url(./images/pictures/bg-color.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 921px;
@@ -245,13 +245,12 @@ p {
   line-height: 160%;
 }
 
-.location-div {
+/* .location-div {
   display: flex;
   flex-direction: column;
   padding: 30px;
   border-left: 1px solid #1E1C61;
-
-}
+} */
 
 .explore-btn {
   position: absolute;
@@ -271,60 +270,85 @@ p {
 
   .booking-sec {
     background-image: none;
-    /* background-size: cover; */
-    height: auto;
     display: flex;
     flex-direction: column-reverse;
     padding-left: 0;
+    height: initial;
+    position: initial;
   }
 
   .doctor-res-container {
     background-image: url(/images/pictures/booking-bg-mobile.png);
     position: relative;
-    height: 550px;
-    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
-    align-items: end;
   }
 
   .doctor-img {
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
-    height: 300px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    margin: auto;
+    right: 0;
+    left: 0;
+    top: initial;
+    height: initial;
   }
 
   .find-div {
     display: none;
   }
 
-  /* .find-div-mobile {
-    width: 335px;
-    height: 75px;
+  .find-div-mbl {
     position: absolute;
-    bottom: -50px;
+    top: 65px;
+    display: flex;
+    justify-content: center;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 20px;
+    width: 325px;
+    border-radius: 10px;
     background-color: #201E62;
-    padding: 0 55px;
+    padding: 18px 14px;
   }
 
-  .search-input-mbl::placeholder {
+  .find-child-div {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0;
+    height: 40px;
+  }
+
+  .search-input {
+    padding-top: 5px;
+    width: 70px;
+  }
+
+  .search-div {
+    padding: 0 10px 0 10px;
+  }
+
+  .bdr {
+    border-right: 1px solid #201E62;
+  }
+
+  .search-input::placeholder {
     color: #263238;
-    font-size: 100px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
   }
 
   .explore-btn {
-
+    position: absolute;
     border-radius: 20px;
-    padding: 15px;
+    padding: 11px;
     font-size: 14px;
-  } */
+  }
 
 
   .booking-heading-div {
@@ -359,9 +383,10 @@ p {
   .booking-btn-div {
     display: flex;
     flex-direction: column;
-    margin-right: -26px;
+    margin-left: -20px;
     align-items: center;
     width: 100vw;
+    /* background-color: red; */
   }
 
   .download-btn {

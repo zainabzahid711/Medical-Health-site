@@ -361,7 +361,7 @@ p {
     flex-direction: column;
     margin-right: -26px;
     align-items: center;
-    background-color: red;
+    width: 100vw;
   }
 
   .download-btn {
@@ -857,6 +857,7 @@ p {
 .customer-details {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .customer-name {
@@ -895,6 +896,34 @@ p {
   background-color: #4B7FFB;
 }
 
+@media (max-width: 500px) {
+  .customer-div {
+    padding: 40px 20px 60px;
+  }
+
+  .customer-heading-div {
+    width: 250px;
+  }
+
+  .customer-heading {
+    font-size: 24px;
+  }
+
+  .customer-cards-container {
+    margin: 20px 0 40px 0;
+    overflow-x: scroll;
+  }
+
+  .customer-card {
+    padding: 20px;
+    width: 370px;
+  }
+
+  .customer-details {
+    margin-top: 23px;
+  }
+
+}
 
 /* **************************************************************  Article Section */
 
@@ -984,6 +1013,47 @@ p {
   transform: translateX(-50%);
 }
 
+@media (max-width: 500px) {
+  .artical-section {
+    padding: 0px 30px;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .artical-card-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 60px 0;
+  }
+
+  .artical-card {
+    padding: 10px 10px 10px;
+    border: 1px solid #F7F4FD;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(66, 67, 77, 0.3);
+    border-radius: 12px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .article-main-heading {
+    margin-right: 0px;
+    width: 350px;
+  }
+
+  .artical-card:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .view-all-adjustment {
+    display: none;
+  }
+}
+
 /* *********************************************************   FAQ's Section */
 .faq-sec {
   display: flex;
@@ -1061,6 +1131,52 @@ p {
 
 .last-qs {
   border: none;
+}
+
+@media (max-width: 500px) {
+  .faq-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 20px 100px;
+    position: relative;
+  }
+
+  .faq-left-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+
+  .faq-qs-heading {
+    font-size: 14px;
+  }
+
+  .collapsible {
+    padding: 15px 0 15px;
+  }
+
+  .collapsible-header {
+    width: 90vw;
+  }
+
+  .collapsible-content {
+    font-size: 12px;
+    line-height: 130%;
+    padding-top: 5px;
+    width: 340px;
+  }
+
+  .toggle-icon {
+    margin-left: -200px;
+  }
+
+  .faq-btn {
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 25px 12px;
+  }
 }
 
 /* *********************************************************   footer */
@@ -1190,4 +1306,96 @@ p {
   font-size: 16px;
   line-height: 160%;
   color: #ADBAC0;
+}
+
+@media (max-width: 500px) {
+  .footer-sec1 {
+    padding: 40px 17px;
+    flex-direction: column;
+    justify-content: center;
+    background-image: none;
+  }
+
+  .footer-bottom-circle {
+    display: none;
+  }
+
+  .footer-heading {
+    font-size: 24px;
+  }
+
+  .footer-btn-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .footer-btn1 {
+    width: 230px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .footer-btn2 {
+    width: 230px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .footer-sec2 {
+    flex-direction: column-reverse;
+    padding: 10px 20px 20px;
+  }
+
+  .footer-logos,
+  .footer-links-container {
+    margin-top: 0;
+  }
+
+  .footer-main-logo {
+    width: 140px;
+  }
+
+  .under-logo {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  .footer-links-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-list,
+  .aa {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aa {
+    margin-bottom: 30px;
+  }
+
+  .list-head {
+    margin-top: 30px;
+  }
+
+  .list {
+    margin-top: 12px;
+  }
+
+  .copyrights-div {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 260px;
+    padding: 20px 0 40px 20px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
 }

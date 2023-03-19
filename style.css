@@ -1560,3 +1560,249 @@ p {
     margin-right: 25%;
   }
 }
+
+
+
+/* ******************************************************************************* SIGNIN FORM PAGE  */
+.signin-parent {
+  font-family: 'Inter';
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* *********************************************  SignIn header  */
+.signform-header {
+  width: 100%;
+  background: #F7F4FD;
+  text-align: center;
+}
+
+.signform-logo {
+  margin: 18px 0 7px;
+  width: 250px;
+}
+
+/* ************************************************ SignIn Form  */
+.signin-form {
+  margin-top: 100px;
+  width: 430px;
+}
+
+.signform-heading1 {
+  font-weight: 600;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #02051C;
+}
+
+.signform-para1 {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #676977;
+  padding: 10px 0;
+}
+
+.signform-inputfield {
+  margin-top: 0px;
+  padding: 10px;
+  border: 1px solid #7B7B7B;
+  border-radius: 50px;
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.signform-input {
+  padding-left: 10px;
+  width: 300px;
+  outline: transparent;
+  border: none;
+}
+
+.signform-btn {
+  width: 370px;
+  height: 50px;
+  border-radius: 50px;
+  background: #4B7FFB;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 10px;
+  align-items: center;
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid;
+}
+
+.signform-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: #909CA1;
+}
+
+.signform-loggedin {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.signform-chkbox {
+  margin: 0;
+  border: 2px solid #4B7FFB;
+  border-radius: 5px;
+}
+
+.signform-loggin {
+  margin-top: 0px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #676977;
+  padding-left: 5px;
+}
+
+.signform-link {
+  color: #EF716B;
+  margin-left: 60px;
+  line-height: 28px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.or-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.left-line,
+.right-line {
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  margin-right: 10px;
+  background-color: #C7CBCE;
+
+}
+
+.or-element {
+  font-size: 20px;
+  font-weight: bold;
+  color: #C7CBCE;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.signform-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signform-icon {
+  width: 20px;
+  margin-bottom: -3px;
+  margin-right: 4px;
+}
+
+.signform-goglebtn {
+  width: 370px;
+  padding: 10px 4px;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 26ppx;
+  background-color: white;
+  text-align: center;
+  color: #111113;
+  border: 1px solid;
+  font-weight: 600;
+}
+
+.signform-newaccount {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 80px;
+}
+
+.signform-newuser {
+  font-size: 15px;
+  color: #67717E;
+}
+
+.signform-createacc {
+  margin-top: 0px;
+  text-decoration: none;
+  color: #4B7FFB;
+  margin-left: 4px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+
+  .signin-parent {
+    margin-bottom: 76px;
+  }
+
+  .signform-para1 {
+    width: 290px;
+    font-size: 14px;
+    margin-left: -30px;
+  }
+
+  .signform-newaccount {
+    margin-left: 0px;
+  }
+
+  .signin-form {
+    margin: 30px 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .or-wrapper {
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+
+  .signform-inputfield {
+    width: 320px;
+  }
+
+  .signform-btn {
+    width: 340px;
+    font-size: 16px;
+  }
+
+  .signform-loggedin {
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
+  .signform-link {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  .signform-goglebtn {
+    font-size: 16px;
+    width: 340px;
+  }
+
+  .signform-input {
+    width: 260px;
+  }
+}

@@ -1968,6 +1968,16 @@ p {
   background-color: #F7F4FD;
 }
 
+@media screen and (max-width: 500px) {
+  .contact-header {
+    background-color: #ffffff;
+  }
+
+  .contact-confirm-parent {
+    overflow-x: hidden;
+  }
+}
+
 /* ************************************************ Contact-Confirm Section */
 .confirm-container {
   background-color: #F7F4FD;
@@ -2010,6 +2020,29 @@ p {
   color: #6C6973;
 }
 
+@media screen and (max-width: 500px) {
+  .confirm-container {
+    padding: 40px 0px;
+  }
+
+  .confirm-child-div {
+    width: 335px;
+    height: 380px;
+    text-align: center;
+  }
+
+  .contact-confirm-head {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 30px 0 10px;
+  }
+
+  .contact-confirm-para {
+    font-size: 14px;
+    width: 300px;
+  }
+}
+
 /* ***********************************************************************   Connnection Setion */
 .connect-connection-div {
   width: 100%;
@@ -2017,7 +2050,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 130px 0;
+  margin: 130px 0 0;
 }
 
 .ch-h1 {
@@ -2078,4 +2111,43 @@ p {
   line-height: 160%;
   color: #4B7FFB;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .connect-connection-div {
+    margin: 60px 0 30px;
+  }
+
+  .ch-h1 {
+    font-size: 24px;
+  }
+
+  .ch-p1 {
+    margin-top: 10px;
+  }
+
+  .connect-sources-container {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .connect-card {
+    padding: 20px 20px;
+    width: 300px;
+  }
+
+  .connect-card:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .visit-us-head {
+    font-size: 18px;
+    margin: 16px 0 4px;
+  }
+
+  .visit-us-pra {
+    font-size: 16px;
+    color: #6C6973;
+  }
 }

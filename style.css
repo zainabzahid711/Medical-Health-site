@@ -1957,3 +1957,125 @@ p {
     margin-bottom: 6px;
   }
 }
+
+
+
+
+/* ****************************************************  Contact Confirm Page  */
+
+/* **********************************************    Header  */
+.contact-header {
+  background-color: #F7F4FD;
+}
+
+/* ************************************************ Contact-Confirm Section */
+.confirm-container {
+  background-color: #F7F4FD;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.confirm-child-div {
+  width: 760px;
+  height: 690px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-img {
+  width: 85px;
+}
+
+.contact-confirm-head {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 135%;
+  margin: 40px 0 16px;
+  color: #34303D;
+}
+
+.contact-confirm-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  width: 440px;
+  text-align: center;
+  color: #6C6973;
+}
+
+/* ***********************************************************************   Connnection Setion */
+.connect-connection-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 130px 0;
+}
+
+.ch-h1 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 130%;
+  color: #34303D;
+}
+
+.ch-p1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #6C6973;
+  margin-top: 20px;
+}
+
+.connect-sources-container {
+  margin-top: 60px;
+  display: flex;
+}
+
+.connect-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  background-color: #F7F4FD;
+  padding: 38px 32px 40px;
+  border-radius: 12px;
+  width: 240px;
+}
+
+.connect-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.visit-us-logo {
+  width: 80px;
+}
+
+.visit-us-head {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  color: #201E62;
+  margin: 16px 0 8px;
+}
+
+.visit-us-pra {
+  font-size: 16px;
+  color: #6C6973;
+}
+
+.connect-card-loc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B7FFB;
+  margin-top: 16px;
+}

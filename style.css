@@ -10,6 +10,21 @@ p {
   margin: 0;
 }
 
+@media (max-width: 500px) {
+
+  .header-sec,
+  .booking-sec,
+  .explore-sec,
+  .why-us-sec,
+  .doctors-sec,
+  .customer-div,
+  .artical-section,
+  .faq-sec,
+  .homepage-footer {
+    overflow-x: hidden;
+  }
+}
+
 /*                                                      Header Section                 */
 
 .header-sec {
@@ -53,6 +68,7 @@ p {
 
 @media only screen and (max-width: 500px) {
   .header-sec {
+    text-align: initial;
     flex-wrap: wrap;
     padding: 8px 25px 15px;
   }
@@ -106,6 +122,15 @@ p {
   }
 }
 
+@media (min-width:1500px) {
+  .header-sec {
+    justify-content: center;
+  }
+
+  .logo-container {
+    margin-right: 10%;
+  }
+}
 
 /*                                                      booking Section                 */
 .booking-sec {
@@ -123,6 +148,10 @@ p {
   top: 15px;
   width: 700px;
   height: 765px;
+}
+
+.doctor-img0 {
+  display: none;
 }
 
 .booking-heading-div {
@@ -196,7 +225,6 @@ p {
   padding: 0 55px;
 }
 
-
 .find-heading {
   font-weight: 500;
   font-size: 32px;
@@ -244,13 +272,6 @@ p {
   font-size: 20px;
   line-height: 160%;
 }
-
-/* .location-div {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  border-left: 1px solid #1E1C61;
-} */
 
 .explore-btn {
   position: absolute;
@@ -401,6 +422,37 @@ p {
     font-size: 16px;
     color: #201E62;
     border: 2px solid #201E62;
+  }
+}
+
+@media (min-width:1500px) {
+  .booking-sec {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+  }
+
+  .large-screen-adjust-img {
+    display: flex;
+  }
+
+  .doctor-img {
+    display: none;
+  }
+
+  .doctor-img0 {
+    display: initial;
+    width: 700px;
+  }
+
+  .booking-heading-div {
+    padding-top: 150px;
+  }
+
+  .find-div {
+    position: absolute;
+    bottom: -20px;
   }
 }
 
@@ -566,6 +618,7 @@ p {
 
 .why-us-sec {
   display: flex;
+  justify-content: center;
   margin: 0 30px 0 50px;
 }
 
@@ -622,7 +675,6 @@ p {
   .why-us-sec {
     margin: 0;
     padding: 0;
-    background-color: #1C1B1F;
   }
 
   .chose-us-head {
@@ -648,7 +700,7 @@ p {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 6px;
-    width: 335px;
+    width: 300px;
     background-color: #fff;
   }
 
@@ -820,6 +872,20 @@ p {
   }
 }
 
+@media (min-width: 1500px) {
+  .center-doctor {
+    position: relative;
+  }
+
+  .aeros-circle-div {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+}
+
+
+
 /* ************************************************************************* Customer opinion Section */
 .customer-div {
   background-color: #F7F4FD;
@@ -937,6 +1003,7 @@ p {
   .customer-cards-container {
     margin: 20px 0 40px 0;
     overflow-x: scroll;
+
   }
 
   .customer-card {
@@ -944,10 +1011,30 @@ p {
     width: 370px;
   }
 
+  .cust-opnion {
+    font-size: 16px;
+    width: 290px;
+  }
+
   .customer-details {
     margin-top: 23px;
   }
 
+}
+
+
+@media (min-width: 1500px) {
+  .customer-div {
+    position: relative;
+    height: 600px;
+  }
+
+  .customer-main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* **************************************************************  Article Section */
@@ -1040,7 +1127,7 @@ p {
 
 @media (max-width: 500px) {
   .artical-section {
-    padding: 0px 30px;
+    padding: 0px 20px;
     background-image: none;
     justify-content: center;
     align-items: center;
@@ -1066,7 +1153,7 @@ p {
 
   .article-main-heading {
     margin-right: 0px;
-    width: 350px;
+    width: 340px;
   }
 
   .artical-card:not(:last-child) {
@@ -1076,6 +1163,24 @@ p {
 
   .view-all-adjustment {
     display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .artical-section {
+    position: relative;
+    height: 600px;
+  }
+
+  .center-artical {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .customer-heading-div {
+    margin-bottom: 30px;
   }
 }
 
@@ -1173,7 +1278,7 @@ p {
   }
 
   .faq-qs-heading {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .collapsible {
@@ -1202,6 +1307,21 @@ p {
     line-height: 150%;
     padding: 10px 25px 12px;
   }
+}
+
+
+@media (min-width: 1500px) {
+
+  .faq-sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq-right-div {
+    width: 600px;
+    margin-left: 90px;
+  }
+
 }
 
 /* *********************************************************   footer */
@@ -1422,5 +1542,21 @@ p {
   .copyright {
     font-size: 14px;
   }
+}
 
+@media (min-width:1500px) {
+
+  .footer-sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyrights-div {
+    justify-content: center;
+  }
+
+  .cr1 {
+    margin-right: 25%;
+  }
 }

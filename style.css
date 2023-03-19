@@ -1806,3 +1806,149 @@ p {
     width: 260px;
   }
 }
+
+
+
+
+
+/* *************************************************************   Login page */
+.login-welcome {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column;
+  border: 1px solid #909CA1;
+  border-radius: 12px;
+  padding: 40px;
+  width: 560px;
+}
+
+.welcome-1div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.welcome-mainheading {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 15px;
+  color: #34303D;
+}
+
+.welcome-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6C6973;
+  margin: 18px 0 40px;
+}
+
+.welcome-secdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-toptext {
+  display: flex;
+  width: 255px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #34303D;
+  margin-right: 250px;
+  margin-bottom: 6px;
+}
+
+.star-sign {
+  color: #F04438;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.welcome-input {
+  padding: 16px;
+  width: 480px;
+  font-size: 16px;
+  border: 1px solid #DEE3E6;
+  border-radius: 6px;
+}
+
+.welcome-input:focus {
+  outline: none;
+}
+
+.welcome-input::placeholder {
+  color: #909ca1;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.remember-check {
+  width: 20px;
+  height: 20px;
+  margin: 10px 0 0 30px;
+  border: 1.5px solid #747E83;
+}
+
+.remember {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: -20px;
+}
+
+.welcome-forgot {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.login-btn {
+  margin-left: 25px;
+}
+
+.welcome-button {
+  width: 95%;
+  height: 64px;
+  background: #201E62;
+  box-shadow: 5px 5px 20px rgba(32, 30, 98, 0.3);
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+  .login-welcome {
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .mbl-head-email {
+    display: none;
+  }
+
+  .welcome-input {
+    padding: 16px;
+    width: 330px;
+  }
+
+  .welcome-toptext {
+    width: 120px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #34303D;
+    margin-right: 250px;
+    margin-bottom: 6px;
+  }
+}

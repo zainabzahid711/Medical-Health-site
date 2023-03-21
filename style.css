@@ -2355,6 +2355,7 @@ p {
   background-color: #F7F4FD;
   padding: 0 135px 150px;
   display: flex;
+  justify-content: center;
 }
 
 .tips-left {
@@ -2393,9 +2394,38 @@ p {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .tips-section {
+    flex-direction: column;
+    padding: 40px 20px 110px;
+  }
+
+  .tips-left {
+    width: 334px;
+    margin-right: 0px;
+  }
+
+  .tips-left-heading {
+    font-size: 32px;
+  }
+
+  .tips-left-para {
+    font-size: 14px;
+  }
+
+  .tips-read-more {
+    margin-top: 25px;
+    width: 100%;
+  }
+}
+
 /* ************************************ right-sec  */
 .tips-right {
   display: flex;
+}
+
+.heath-tips-img {
+  height: 440px;
 }
 
 .dis-parent {
@@ -2428,11 +2458,40 @@ p {
   margin-bottom: 12px;
 }
 
+
+@media screen and (max-width: 500px) {
+  .tips-right {
+    flex-direction: column;
+    margin-top: 35px;
+  }
+
+  .heath-tips-img {
+    margin-bottom: 30px;
+  }
+
+  .dis-parent {
+    margin-left: 10px;
+  }
+
+  .dis-card {
+    width: 100%;
+    margin: 4px 0 10px;
+    padding-top: 10px;
+  }
+
+  .dc2 {
+    margin-top: 20px;
+  }
+
+  .dis-para {
+    width: 200px;
+  }
+}
+
 /* ***************************** Search-bar  */
 .search-health-dis {
-  /* height: 60px; */
   position: absolute;
-  bottom: 300px;
+  bottom: -80px;
   left: 135px;
   right: 135px;
   padding: 30px;
@@ -2459,6 +2518,7 @@ p {
   margin-top: 0;
   border-radius: 30px;
   padding: 18px 45px;
+  font-weight: 600;
 }
 
 .img-input-div {
@@ -2477,4 +2537,128 @@ p {
   border: none;
 }
 
-/* ************************** Health Articals Section  */
+@media screen and (max-width: 500px) {
+  .search-health-dis {
+    bottom: -60px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+  }
+
+  .search-health-dis-child {
+    margin-top: 10px;
+  }
+
+  .mt {
+    display: none;
+  }
+
+  .img-input-div {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+/* **************************************************** Health Articals Section  */
+.health-articals-parent {
+  margin: 200px 135px 90px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ar-h1 {
+  font-weight: 600;
+  font-size: 42px;
+  color: #34303D;
+}
+
+.articals-btns-div {
+  margin: 40px 0 60px;
+}
+
+.ar-bold-btn {
+
+  background-color: #4B7FFB !important;
+  color: #FFFFFF !important;
+}
+
+.ar-btns {
+  background-color: #fff;
+  border: 1.5px solid #EFF1F2;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 25px;
+  border-radius: 8px;
+  color: #535D63;
+  ;
+}
+
+.ar-btns:not(:last-child) {
+  margin-right: 20px;
+}
+
+.artical-containers-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.load-more-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #4B7FFB;
+  border-radius: 7px;
+  padding: 15px 20px;
+  border: 1px solid;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .health-articals-parent {
+    margin: 110px 20px 80px !important;
+  }
+
+  .head-btndiv {
+    display: flex;
+  }
+
+  .ar-h1 {
+    font-size: 24px;
+    width: 172px;
+  }
+
+  .articals-btns-div {
+    margin: 0 0 0 auto;
+  }
+
+  .ar-bold-btn {
+
+    display: initial !important;
+    background-color: #fff !important;
+    border: 1.5px solid #EFF1F2 !important;
+    color: #909CA1 !important;
+  }
+
+  .ar-btns {
+    display: none;
+  }
+
+  .mb {
+    margin: 0 0 15px 0;
+  }
+
+  .load-more-btn {
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+}
+
+
+/* ************************************************************* Blogs Detail Page */
+/* ********************************************* Past Experience  */

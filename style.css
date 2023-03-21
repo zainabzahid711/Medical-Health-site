@@ -265,10 +265,10 @@ p {
 .search-input {
   border: none;
   padding-top: 5px;
-
 }
 
-.search-input:focus {
+.search-input,
+.search-dis:focus {
   outline: none;
 }
 
@@ -2339,11 +2339,142 @@ p {
     justify-content: space-between;
   }
 
-
   .send-msg-btn {
     padding: 14px 20px;
     margin-top: 15px;
     font-size: 14px;
   }
-
 }
+
+
+/* ******************************************************************* Blog Page  */
+/* ********************************************** Tips Section  */
+/* ************************************ left-sec  */
+.tips-section {
+  position: relative;
+  background-color: #F7F4FD;
+  padding: 0 135px 150px;
+  display: flex;
+}
+
+.tips-left {
+  width: 570px;
+  margin-right: 10px;
+}
+
+.health-tips {
+  text-decoration: none;
+  color: #4DA9FF;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tips-left-heading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  color: #34303D;
+  margin: 10px 0 20px;
+}
+
+.tips-left-para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #6C6973;
+}
+
+.tips-read-more {
+  margin-top: 50px;
+  color: #4B7FFB;
+  background-color: transparent;
+  border: 1px solid #4B7FFB;
+  padding: 12px 18px;
+  border-radius: 20px;
+}
+
+/* ************************************ right-sec  */
+.tips-right {
+  display: flex;
+}
+
+.dis-parent {
+  margin-left: 25px;
+}
+
+.dis-card {
+  width: 198px;
+  margin: 4px 0 40px;
+  padding-top: 20px;
+  border-top: 1px solid #4DA9FF
+}
+
+.dc2 {
+  border: none;
+}
+
+.dis-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  color: #34303D;
+}
+
+.dis-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: #6C6973;
+  margin-bottom: 12px;
+}
+
+/* ***************************** Search-bar  */
+.search-health-dis {
+  /* height: 60px; */
+  position: absolute;
+  bottom: 300px;
+  left: 135px;
+  right: 135px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #F7F8F9;
+  box-shadow: 0px 10px 25px rgba(81, 75, 94, 0.08);
+  border-radius: 8px;
+}
+
+.search-head {
+  font-weight: 500;
+  font-size: 20px;
+  color: #34303D;
+}
+
+.search-health-dis-child {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mt {
+  margin-top: 0;
+  border-radius: 30px;
+  padding: 18px 45px;
+}
+
+.img-input-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 800px;
+  padding: 10px 0 10px 10px;
+  border-radius: 30px;
+  border: 1px solid #F7F8F9;
+}
+
+.search-dis {
+  width: 200px;
+  padding: 10px;
+  border: none;
+}
+
+/* ************************** Health Articals Section  */

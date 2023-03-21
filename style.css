@@ -20,7 +20,8 @@ p {
   .customer-div,
   .artical-section,
   .faq-sec,
-  .homepage-footer {
+  .homepage-footer,
+  .signin-parent {
     overflow-x: hidden;
   }
 }
@@ -2150,4 +2151,199 @@ p {
     font-size: 16px;
     color: #6C6973;
   }
+}
+
+
+/* *********************************************************************   Contact Form Page */
+/* ************************************************************  Contact-Form  */
+.contact-form-container {
+  background-image: url(/images/pictures/Earth-bg.png);
+  background-repeat: no-repeat;
+  background-color: #F7F4FD;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.contact1-child-div {
+  background-color: #fff;
+  padding: 50px 50px;
+  width: 760px;
+  height: 630px;
+  border-radius: 12px;
+}
+
+.contact-form-head-div {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-form-head {
+  font-weight: 600;
+  font-size: 30px;
+  color: #34303D;
+}
+
+.contact-form-para {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6C6973;
+  margin-top: 16px;
+}
+
+.contact1-fied-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.name-email-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ne0-div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ne-input {
+  padding: 12px 16px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #DEE3E6;
+  border-radius: 3px;
+}
+
+.ne-input:focus {
+  outline: none;
+}
+
+.ne-input::placeholder {
+  font-size: 14px;
+}
+
+.ne-lable {
+  font-size: 16px;
+  color: #34303D;
+  margin-bottom: 6px;
+}
+
+.sub-div {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.sub-input {
+  width: 725px;
+}
+
+.form-bottom-div {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-bottom-confirm-div {
+  display: flex;
+}
+
+.checkme {
+  width: 20px;
+  height: 20px;
+}
+
+.form-bottom-para {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #34303D;
+  line-height: 150%;
+  width: 350px;
+}
+
+.form-bottom-links {
+  text-decoration: none;
+  color: #4B7FFB;
+}
+
+.send-msg-btn {
+  background-color: #4DA9FF;
+  box-shadow: 5px 5px 20px rgba(77, 169, 255, 0.3);
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  padding: 14px 24px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .contact-form-container {
+    background-image: none;
+    padding: 40px 0px;
+  }
+
+  .contact1-child-div {
+    padding: 20px 10px;
+    width: 335px;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .contact-form-head-div {
+    margin-top: 0;
+  }
+
+  .contact-form-head {
+    font-size: 24px;
+  }
+
+  .contact-form-para {
+    width: 300px;
+    margin: 10px 17.5px 0;
+  }
+
+  .name-email-div {
+    /* width: 100%; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .email-top {
+    margin-top: 20px;
+  }
+
+  .sub-div {
+    margin: 20px 0;
+  }
+
+  .sub-input {
+    width: 300px;
+  }
+
+  .form-bottom-div {
+    margin-top: 10px;
+    width: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .send-msg-btn {
+    padding: 14px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
 }

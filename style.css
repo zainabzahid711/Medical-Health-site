@@ -2944,3 +2944,111 @@ p {
     width: 100px;
   }
 }
+
+/* **************************************************************************  Schedule Doctor Page  */
+/* **************************************************************************** Doctor's Details  */
+/* *********************************** Doctor Card  */
+.doc-details-container {
+  margin: 50px 135px 0;
+}
+
+.doc-profile-and-calander {
+  position: relative;
+}
+
+.book-doc-comtainer0 {
+  width: 345px;
+  border-radius: 20px;
+}
+
+.doc-img-div {
+  padding: 5px;
+  background-color: #4B7FFB;
+  border-radius: 20px;
+}
+
+.doc-details0 {
+  margin: 21px 0 0 15px;
+}
+
+.doc-loation-div0 {
+  margin: 17px 0 5px 0;
+}
+
+.checkup-fee {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FF5F57;
+}
+
+/* *************************************** Calander-container */
+.calendar {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 20px rgba(30, 28, 97, 0.3);
+  border-radius: 8px;
+  width: 375px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 10px;
+  background-color: #201E62;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev-btn,
+.next-btn {
+  color: #fff;
+}
+
+.month {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.day {
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.highlight {
+  background-color: #4B7FFB;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* *************************************** Available Time Section */

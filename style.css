@@ -3262,13 +3262,9 @@ p {
   .spec-items-divs {
     margin: 38px 0 0;
     flex-wrap: wrap;
-    /* display: none; */
   }
 
   .speciality {
-    background: #FFFFFF;
-    box-shadow: 5px 5px 20px rgba(30, 28, 97, 0.3);
-    border-radius: 8px;
     padding: 10px 0;
     font-size: 15px;
     width: 148px;

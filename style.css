@@ -3023,10 +3023,6 @@ p {
   border: none;
   font-size: 16px;
   cursor: pointer;
-}
-
-.prev-btn,
-.next-btn {
   color: #fff;
 }
 
@@ -3057,7 +3053,7 @@ p {
 }
 
 .highlight {
-  background-color: #FB6E67;
+  background-color: #4B7FFB;
   color: #fff;
   border-radius: 50%;
 }
@@ -3087,7 +3083,7 @@ p {
 }
 
 .highlight-time {
-  background-color: #FB6E67;
+  background-color: #4B7FFB;
   color: #fff;
 }
 
@@ -3109,6 +3105,50 @@ p {
   border: none;
   font-weight: 600;
   font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .doc-details-container {
+    margin: 25px 135px 0;
+  }
+
+  .doc-profile-and-calander {
+    position: relative;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calanderTime-parent {
+    position: relative;
+    display: initial;
+    margin-top: 34px;
+  }
+
+  .calendar {
+    width: 340px;
+  }
+
+  .days {
+    padding: 5px;
+  }
+
+  .day {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .timess {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .time {
+    padding: 10px;
+    margin: 5px;
+  }
 }
 
 /* ****************************** Doctors-Others Details  */
@@ -3184,4 +3224,55 @@ p {
   width: 236px;
   text-align: center;
   margin-right: 60px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .pro-info {
+    margin: 20px 0 20px;
+  }
+
+  .pro-info-header {
+    width: 290px;
+    font-size: 20px;
+  }
+
+  .pro-list {
+    font-size: 16px;
+  }
+
+  .ded {
+    width: 290px;
+  }
+
+  .edu-details {
+    margin: 0px 0 40px;
+    flex-direction: column;
+  }
+
+  .doc-edu {
+    margin: 30px 0 45px;
+  }
+
+  .doc-disp-para {
+    margin: 17px 0 40px;
+    font-size: 20px;
+  }
+
+  .spec-items-divs {
+    margin: 38px 0 0;
+    flex-wrap: wrap;
+    /* display: none; */
+  }
+
+  .speciality {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(30, 28, 97, 0.3);
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 15px;
+    width: 148px;
+    margin: 0 20px 10px 0;
+  }
+
 }

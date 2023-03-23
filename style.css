@@ -2950,10 +2950,15 @@ p {
 /* *********************************** Doctor Card  */
 .doc-details-container {
   margin: 50px 135px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .doc-profile-and-calander {
   position: relative;
+  width: 1170px;
 }
 
 .book-doc-comtainer0 {
@@ -2983,9 +2988,15 @@ p {
 }
 
 /* *************************************** Calander-container */
-.calendar {
+.calanderTime-parent {
+  position: absolute;
+  right: 0;
+  top: 0;
   display: inline-block;
-  margin: 10px;
+}
+
+.calendar {
+  margin: 0 10px 30px;
   border: 1px solid #ccc;
   font-size: 14px;
   line-height: 1.5;
@@ -3042,7 +3053,7 @@ p {
 .day {
   background-color: #fff;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .highlight {
@@ -3052,3 +3063,50 @@ p {
 }
 
 /* *************************************** Available Time Section */
+.time-selection-contant {
+  margin: 19px 0 20px;
+}
+
+.timess {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1E1C61;
+}
+
+.time {
+  background-color: rgba(75, 127, 251, 0.15);
+  padding: 14px 12px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.highlight-time {
+  background-color: #4B7FFB;
+  color: #fff;
+}
+
+.remindMe-hed {
+  margin: 25px 0 17px 20px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.confirm-time-btn {
+  margin-bottom: 30px;
+  padding: 18px 85px;
+  background: #4B7FFB;
+  border-radius: 30px;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+}

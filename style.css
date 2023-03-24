@@ -1154,6 +1154,7 @@ p {
 
 .Read-more {
   color: #4B7FFB;
+  text-decoration: none;
 }
 
 .view-all-adjustment {
@@ -3475,5 +3476,154 @@ p {
     margin-top: 155px;
     width: 290px;
     padding: 15px 68px;
+  }
+}
+
+/* ****************************************************************** Book oppointment page 2  */
+
+.s2-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background: #F6F9F8;
+}
+
+.book2-div {
+  text-align: center;
+  margin: 70px 0 30px;
+}
+
+.book2-heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #272D2C;
+  margin-bottom: 40px;
+}
+
+.book2-img {}
+
+
+.appoint2-service {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0 30px;
+}
+
+.book2-datechoose {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.book2-typeservice {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.book2-label {
+
+  margin-bottom: 10px;
+  color: #1F1F1F;
+}
+
+.book2-input {
+  padding: 14px 16px;
+  width: 370px;
+  height: 15px;
+  border: 1px solid #E1E1E1;
+  border-radius: 6px;
+}
+
+.book2-input:focus {
+  outline: none;
+}
+
+.book2-bestime {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#timezone {
+  width: 280px;
+  border: none;
+  height: 30px;
+  background-color: #E9EFEE;
+}
+
+#timezone:focus {
+  outline-offset: none;
+}
+
+.book2-btn-div {
+  width: 850px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 100px;
+}
+
+.book2-btn {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #FB6E67;
+  box-shadow: 5px 5px 20px rgba(32, 30, 98, 0.3);
+  border-radius: 30px;
+  color: #FFFFFF;
+  border: none;
+  padding: 17px 180px;
+}
+
+@media screen and (max-width: 500px) {
+  .s2-parent {
+    background: #F6F9F8;
+  }
+
+  .book2-div {
+    margin: 80px 20px 50px;
+    padding: 20px 15px;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+
+  .book2-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .book2-img {
+    width: 305px;
+  }
+
+  .appoint2-service {
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0 15px;
+  }
+
+  .book2-label {
+    margin-bottom: 10px;
+  }
+
+  .book2-input {
+    padding: 14px 10px;
+    width: 300px;
+  }
+
+  .book2-btn-div {
+    width: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .book2-btn {
+    font-weight: 600;
+    padding: 17px 90px;
   }
 }

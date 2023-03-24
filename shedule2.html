@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Book Shedule 2 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="s2-parent">
+    <!-- ****************************************** Book2 Header  -->
+    <div class="book3-header">
+      <img class="book3-logo" src="images/svg/main-logo.svg" alt="envoyicon">
+      <div class="book3header-leftsec">
+        <h class="book3-qestion"> Have an account? </h>
+        <a class="book3-link" href="#"> Sign in </a>
+      </div>
+    </div>
+    <!-- ********************************************** Book 2 Content  -->
+    <div class="book2-div">
+      <h1 class="book2-heading"> Shedule an Appointment </h1>
+      <img class="book2-img" src="images/pictures/book2-yourtime.svg" alt="">
+      <div class="appoint2-service">
+        <div class="book2-datechoose">
+          <label class="book2-label"> Choose date </label>
+          <input class="book2-input" type="text" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="book2-datechoose">
+          <label class="book2-label"> Type of Service </label>
+          <input class="book2-input" type="text" placeholder="select duration">
+        </div>
+      </div>
+      <div class="book2-bestime">
+        <label class="book2-label" for="date choose"> What time works best? </label>
+        <select class="book-2-time-slt" id="timezone" name="timezone">
+          <option value="UTC-12:00">(UTC-12:00) International Date Line West</option>
+          <option value="UTC-11:00">(UTC-11:00) Coordinated Universal Time-11</option>
+          <option value="UTC-10:00">(UTC-10:00) Hawaii</option>
+          <option value="UTC-09:30">(UTC-09:30) Marquesas Islands</option>
+          <option value="UTC-09:00">(UTC-09:00) Alaska</option>
+          <option value="UTC-08:00">(UTC-08:00) Pacific Time (US & Canada)</option>
+          <option value="UTC-07:00">(UTC-07:00) Arizona</option>
+          <option value="UTC-07:00">(UTC-07:00) Mountain Time (US & Canada)</option>
+          <option value="UTC-06:00">(UTC-06:00) Central Time (US & Canada)</option>
+          <option value="UTC-05:00">(UTC-05:00) Eastern Time (US & Canada)</option>
+          <option value="UTC-04:30">(UTC-04:30) Caracas</option>
+          <option value="UTC-04:00">(UTC-04:00) Atlantic Time (Canada)</option>
+          <option value="UTC-03:30">(UTC-03:30) Newfoundland</option>
+          <option value="UTC-03:00">(UTC-03:00) Buenos Aires, Georgetown</option>
+          <option value="UTC-02:00">(UTC-02:00) Mid-Atlantic</option>
+          <option value="UTC-01:00">(UTC-01:00) Azores</option>
+          <option value="UTC+00:00" selected> UTC +05:30 New Delhi, Mumbai, Calcutta</option>
+          <option value="UTC+00:00">(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon,London</option>
+          <option value="UTC+01:00">(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+          <option value="UTC+02:00">(UTC+02:00) Athens, Bucharest, Istanbul</option>
+          <option value="UTC+03:00">(UTC+03:00) Moscow, St. Petersburg, Volgograd</option>
+          <option value="UTC+03:30">(UTC+03:30) Tehran</option>
+          <option value="UTC+04:00">(UTC+04:00) Abu Dhabi, Muscat</option>
+          <option value="UTC+04:30">(UTC+04:30) Kabul</option>
+          <option value="UTC+05:00">(UTC+05:00) Islamabad, Karachi, Tashkent</option>
+          <option value="UTC+05:30">(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+          <option value="UTC+05:45">(UTC+05:45) Kathmandu</option>
+          <option value="UTC+06:00">(UTC+06:00) Astana, Dhaka</option>
+          <option value="UTC+06:30">(UTC+06:30) Yangon (Rangoon)</option>
+          <option value="UTC+07:00">(UTC+07:00) Bangkok, Hanoi, Jakarta</option>
+
+          <input class="book2-input" type="text" list="timezones" placeholder="Select time">
+          <datalist id="timezones">
+            <option value="UTC -12:00 Baker Island">
+            <option value="UTC -11:00 Niue, Pago Pago">
+            <option value="UTC -10:00 Honolulu, Rarotonga">
+            <option value="UTC -09:00 Anchorage, Juneau">
+            <option value="UTC -08:00 Los Angeles, Vancouver">
+            <option value="UTC -07:00 Denver, Calgary">
+            <option value="UTC -06:00 Mexico City, Guatemala City">
+            <option value="UTC -05:00 New York, Toronto">
+            <option value="UTC -04:00 Santiago, Santo Domingo">
+            <option value="UTC -03:00 Brasilia, Buenos Aires">
+            <option value="UTC -02:00 Fernando de Noronha">
+            <option value="UTC -01:00 Cape Verde, Azores">
+            <option value="UTC +00:00 London, Dublin">
+            <option value="UTC +01:00 Paris, Berlin">
+            <option value="UTC +02:00 Athens, Helsinki">
+            <option value="UTC +03:00 Moscow, Kuwait City">
+            <option value="UTC +04:00 Dubai, Muscat">
+            <option value="UTC +05:00 Karachi, Lahore">
+            <option value="UTC +06:00 Dhaka, Almaty">
+            <option value="UTC +07:00 Bangkok, Jakarta, Hanoi">
+            <option value="UTC +08:00 Singapore, Beijing, Hong Kong">
+            <option value="UTC +09:00 Tokyo, Seoul">
+            <option value="UTC +10:00 Sydney, Melbourne">
+            <option value="UTC +11:00 New Caledonia, Solomon Islands">
+            <option value="UTC +12:00 Fiji, Kamchatka">
+            <option value="UTC +13:00 Auckland, Samoa">
+          </datalist>
+          </datalist>
+      </div>
+    </div>
+    <div class="book2-btn-div">
+      <button class=" book2-btn btn-hover">NEXT STEP</button>
+    </div>
+  </div>
+
+</body>
+<script>
+  const timeZoneDropdown = document.getElementById('time-zone');
+  const selectedTimeZoneInput = document.getElementById('selected-time-zone');
+
+  timeZoneDropdown.addEventListener('change', () => {
+    selectedTimeZoneInput.value = timeZoneDropdown.value;
+  });
+</script>
+
+</html>

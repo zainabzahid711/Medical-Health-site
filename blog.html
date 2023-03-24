@@ -20,9 +20,15 @@
       <div class="head-links-div">
         <a class="head-link" href="index.html">Home</a>
         <a class="head-link" href="#abc">About us</a>
-        <a class="head-link" href="#abc">Pages</a>
-        <a class="head-link" href="#abc">Doctors</a>
-        <a class="head-link home-link" href="#abc">Contacts</a>
+        <div class="dropdown">
+          <a class="head-link home-link" href="#">Pages</a>
+          <div class="dropdown-content">
+            <a class="home-link" href="blog.html">Blog</a>
+            <a href="blog-details.html">Blog Detail</a>
+          </div>
+        </div>
+        <a class="head-link" href="doctor.html">Doctors</a>
+        <a class="head-link" href="contact-us.html">Contacts</a>
         <a class="signin" href="/signin.html">Sign in</a>
         <button class="head-btn btn-hover">GET STARTED</button>
       </div>
@@ -89,7 +95,7 @@
               </div>
               <h2 class="article-heading">How to choose the right pediatrician: 7 things to consider</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card artical-card2">
               <img class="article-profile" src="./images/pictures/article-profile2.png" alt="article-profile">
@@ -103,7 +109,7 @@
               <h2 class="article-heading">Allergies? Common cold? Flu? or COVID-19? How to differentiate each of them
               </h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card">
               <img class="article-profile" src="./images/pictures/article-profile3.png" alt="article-profile">
@@ -116,7 +122,7 @@
               </div>
               <h2 class="article-heading">How to check your past pediatrician experience</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
           </div>
           <div class="artical-card-container mb">
@@ -131,7 +137,7 @@
               </div>
               <h2 class="article-heading">How to choose the right pediatrician: 7 things to consider</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card artical-card2">
               <img class="article-profile" src="./images/pictures/article-profile2.png" alt="article-profile">
@@ -145,7 +151,7 @@
               <h2 class="article-heading">Allergies? Common cold? Flu? or COVID-19? How to differentiate each of them
               </h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card">
               <img class="article-profile" src="./images/pictures/article-profile3.png" alt="article-profile">
@@ -158,7 +164,7 @@
               </div>
               <h2 class="article-heading">How to check your past pediatrician experience</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
           </div>
           <div class="artical-card-container mb">
@@ -173,7 +179,7 @@
               </div>
               <h2 class="article-heading">How to choose the right pediatrician: 7 things to consider</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card artical-card2">
               <img class="article-profile" src="./images/pictures/article-profile2.png" alt="article-profile">
@@ -187,7 +193,7 @@
               <h2 class="article-heading">Allergies? Common cold? Flu? or COVID-19? How to differentiate each of them
               </h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
             <div class="artical-card">
               <img class="article-profile" src="./images/pictures/article-profile3.png" alt="article-profile">
@@ -200,7 +206,7 @@
               </div>
               <h2 class="article-heading">How to check your past pediatrician experience</h2>
               <p class="artical-para">Over the years, I have received a lot of feedback from recruitment agencies and an
-                interesting fact which has... <span class="Read-more">Read more</span> </p>
+                interesting fact which has... <a class="Read-more" href="blog-details.html">Read more</a> </p>
             </div>
           </div>
           <button class="load-more-btn btn-hover">LOAD MORE</button>
@@ -232,10 +238,10 @@
         <div class="footer-links-container">
           <ul class="menu-list">
             <li class="list-head">Menu</li>
-            <li class="list">Home</li>
-            <li class="list">About</li>
-            <li class="list">Service</li>
-            <li class="list">Blog</li>
+            <li class="list"> Home</li>
+            <li class="list"><a class="head-link" href="">About</a></li>
+            <li class="list"><a class="head-link" href="">Service</a></li>
+            <li class="list"><a class="head-link" href="blog.html">Blog</a></li>
           </ul>
           <ul class="menu-list">
             <li class="list-head">Contact</li>
@@ -245,7 +251,7 @@
           </ul>
           <ul class="aa">
             <li class="list-head">Support</li>
-            <li class="list">Contact Us</li>
+            <li class="list"> <a class="head-link" href="contact-us.html">Contact Us</a></li>
           </ul>
         </div>
       </div>

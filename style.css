@@ -1867,6 +1867,13 @@ p {
 
 
 /* *************************************************************   Login page */
+.login-parent-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .login-welcome {
   display: flex;
   font-family: 'Inter', sans-serif;

@@ -457,7 +457,6 @@ p {
     margin-left: -20px;
     align-items: center;
     width: 100vw;
-    /* background-color: red; */
   }
 
   .download-btn {
@@ -470,8 +469,8 @@ p {
   .booking-btn {
     width: 230px;
     font-size: 16px;
-    color: #201E62;
-    border: 2px solid #201E62;
+    color: #FB6E67;
+    border: 2px solid #FB6E67;
   }
 }
 
@@ -523,7 +522,7 @@ p {
 
 .explore-details {
   width: 650px;
-  margin: 0;
+  /* margin: 0; */
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
@@ -598,8 +597,6 @@ p {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  display: flex;
-  align-items: center;
   background-color: #FB6E67;
   box-shadow: 5px 5px 20px rgba(32, 30, 98, 0.3);
   border-radius: 30px;
@@ -789,6 +786,13 @@ p {
   align-items: center;
   margin: 170px 0 85px 0;
   position: relative;
+}
+
+.center-doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aeros-circle-div {

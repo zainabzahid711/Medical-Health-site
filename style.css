@@ -73,12 +73,10 @@ p {
   margin-left: 25px;
 }
 
-
 .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
-  /* background-color: #fff; */
 }
 
 .dropdown:hover .dropdown-content {
@@ -150,6 +148,21 @@ p {
   .show-menu .head-link:not(:last-child) {
     padding-right: 0;
     margin-bottom: 10px;
+  }
+}
+
+/* ******************** Mobile page dropdown responsive design  */
+
+@media only screen and (max-width: 500px) {
+
+  .dropdown {
+    display: flex;
+  }
+
+  .dropdown-content a {
+    font-size: 14px;
+    margin-left: 100px;
+    width: 80px;
   }
 }
 
@@ -3487,7 +3500,6 @@ p {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  background: #F6F9F8;
 }
 
 .book2-div {
@@ -3522,7 +3534,6 @@ p {
   display: flex;
   flex-direction: column;
 }
-
 
 .book2-label {
 

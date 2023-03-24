@@ -3519,9 +3519,6 @@ p {
   margin-bottom: 40px;
 }
 
-.book2-img {}
-
-
 .appoint2-service {
   display: flex;
   gap: 30px;
@@ -3640,5 +3637,185 @@ p {
   .book2-btn {
     font-weight: 600;
     padding: 17px 90px;
+  }
+}
+
+
+
+/* ****************************************************************** Book oppointment page 2  */
+
+.shedule1-container {
+  text-align: center;
+  margin: 70px 0 100px;
+}
+
+.book1-fullname {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 15px 15px;
+  gap: 20px;
+}
+
+.book1-datemail {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 15px 15px;
+  gap: 20px;
+}
+
+.book1-inputfields {
+  margin-top: 35px;
+}
+
+.book1-label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+}
+
+.book1-input {
+  display: flex;
+  padding: 15px 0px 15px 15px;
+  width: 370px;
+  border: 1px solid #E1E1E1;
+  border-radius: 6px;
+}
+
+.book1-input:focus {
+  outline: none;
+}
+
+.first-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.last-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.date-format {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.book1-calenderlogo {
+  position: absolute;
+  top: 65%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  object-fit: contain;
+}
+
+.book1-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.book1-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-btn-aro {
+  padding-right: 5px;
+}
+
+.book1-backbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  border: 2px solid rgba(134, 143, 147, 0.5);
+  border-radius: 30px;
+  padding: 15px 4px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(134, 143, 147, 0.5);
+  background-color: white;
+  margin-left: 15px;
+}
+
+.book1-confirmbtn {
+  font-weight: 600;
+  font-size: 20px;
+  background: #fb6E67;
+  box-shadow: 5px 5px 20px rgba(32, 30, 98, 0.3);
+  border-radius: 30px;
+  color: #FFFFFF;
+  border: none;
+  padding: 17px 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .shedule1-inputcontainer {
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px 15px 20px 0;
+    width: 335px;
+    border-radius: 12px;
+    margin: 50px 0 30px;
+  }
+
+  .book1-datemail {
+    gap: 10px;
+  }
+
+  .book1-fullname {
+    padding: 15px 0px 0px 15px;
+    gap: 10px;
+  }
+
+  .book1-inputfields {
+    flex-direction: column;
+  }
+
+  .book1-input {
+    max-width: 300px;
+    margin-right: 0px;
+  }
+
+  .book1-star {
+    color: #F04438;
+  }
+
+  .book1-fullname {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book1-inputfields {
+    margin-top: 15px;
+  }
+
+  .book1-label {
+    margin-bottom: 5px;
+  }
+
+  .book1-datemail {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .book1-btns {
+    justify-content: space-between;
+  }
+
+  .book1-backbtn {
+    width: 140px;
+    margin-left: 10px;
   }
 }
